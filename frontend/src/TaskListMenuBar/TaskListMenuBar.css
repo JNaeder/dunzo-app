@@ -1,0 +1,4 @@
+.task_list_menu_bar {
+  display: flex;
+  justify-content: start;
+}
