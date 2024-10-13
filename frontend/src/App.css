@@ -1,0 +1,36 @@
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+  width: 100%;
+}
+
+.new_task_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.new_task_form_closed {
+  display: none;
+  height: 0;
+}
+
+.task_form_item {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+.task_form_two {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
