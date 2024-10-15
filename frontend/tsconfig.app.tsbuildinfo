@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/fakedb.tsx","./src/inputform.tsx","./src/main.tsx","./src/types.tsx","./src/vite-env.d.ts","./src/navbar/navbar.tsx","./src/tasklist/taskitem.tsx","./src/tasklist/tasklist.tsx","./src/tasklistmenubar/tasklistmenubar.tsx"],"version":"5.6.3"}
