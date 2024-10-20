@@ -16,7 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: List files in this code
-        run: frontend ls
+        run: ls frontend
       - name: Setup Docker Build
         uses: docker/setup-buildx-action@v3
       - name: Login to Docker Hub
