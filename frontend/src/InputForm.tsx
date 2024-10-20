@@ -23,6 +23,7 @@ export default function InputForm({
           <input
             type="text"
             id="task_title"
+            value={taskTitle}
             onChange={(e) => setTaskTitle(e.target.value)}
             data-1p-ignore
           />
@@ -31,6 +32,7 @@ export default function InputForm({
           <label htmlFor="task_desciption">Description</label>
           <textarea
             id="task_desciption"
+            value={taskDescription}
             rows={4}
             onChange={(e) => setTaskDescription(e.target.value)}
           />
@@ -41,6 +43,7 @@ export default function InputForm({
             <select
               id="task_priority"
               onChange={(e) => setTaskPriority(e.target.value)}
+              value={taskPriority}
             >
               <option value="low">Low</option>
               <option value="medium">Medium</option>
@@ -52,6 +55,7 @@ export default function InputForm({
             <input
               type="date"
               id="task_due_date"
+              value={taskDueDate}
               onChange={(e) => setTaskDueDate(e.target.value)}
               data-1p-ignore
             />
@@ -72,7 +76,6 @@ export default function InputForm({
 
             // Reset form
             setTaskTitle("");
-
             setTaskDescription("");
             setTaskPriority("");
             setTaskDueDate("");
