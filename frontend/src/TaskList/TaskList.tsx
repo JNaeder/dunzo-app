@@ -27,7 +27,7 @@ export default function TaskList({
           setCurrentTaskList={setCurrentTaskList}
         />
         {taskList.map((task) => {
-          return <TaskItem key={task.id} task={task} />;
+          return <TaskItem key={task.id} task={task} taskList={taskList} />;
         })}
       </div>
     </>
