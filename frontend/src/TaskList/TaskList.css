@@ -23,6 +23,9 @@
   background-color: #2f2f2f;
   padding: 0;
   border: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
 }
 
 .task_checkbox:hover {
